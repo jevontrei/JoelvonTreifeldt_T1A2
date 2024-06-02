@@ -4,13 +4,13 @@
 
 ## Published portfolio website
 
-https://main--t1a2-portfolio-jvt.netlify.app/
+https://main--joel-von-treifeldt-t1a2.netlify.app/
 
 ---
 
 ## GitHub repository
 
-https://github.com/jevontrei/JoelvonTreifeldt_T1A2
+https://github.com/jevontrei/Joel-von-Treifeldt_T1A2
 
 ---
 
