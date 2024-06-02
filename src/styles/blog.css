@@ -1,4 +1,4 @@
-/* The ... section which uses the "intro" styling   */
+/* The contents section which uses the "intro" styling   */
 .intro {
   padding: 24px;
 
@@ -19,7 +19,7 @@ h1 {
   padding: 2px;
 }
 
-/* The secret ... */
+/* The secret fun fact */
 #secret {
   margin: 0;
   padding: 12px 0 0;
@@ -32,7 +32,7 @@ h1 {
   opacity: 1;
 }
 
-/* The ...  */
+/* The blog container  */
 .blog {
   margin: 0 12px 0;
   padding: 0 12px 0;

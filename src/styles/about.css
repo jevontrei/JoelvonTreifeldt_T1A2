@@ -1,4 +1,3 @@
-/* The intro ... */
 .intro {
   padding: 12px;
 }
@@ -59,7 +58,7 @@ h2 {
   margin-top: 0;
 }
 
-/* The resume ... */
+/* The resume section */
 .resume-container {
   width: fit-content;
 

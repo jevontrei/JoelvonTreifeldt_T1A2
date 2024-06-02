@@ -1,4 +1,4 @@
-/* The ... */
+/* The container for projects */
 .all-projects {
   width: 100%;
 
@@ -64,7 +64,7 @@
   filter: grayscale(0);
 }
 
-/* The blog portal ... */
+/* The blog portal */
 .blog-portal {
   margin: 0 20px;
   padding: 32px 20px;

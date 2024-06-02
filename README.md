@@ -26,9 +26,9 @@ This website allows me to present my portfolio, outline my professional and educ
 
 CSS and Flexbox were used to design each page and create a layout that is responsive to mobile, tablet and desktop viewport widths. The responsiveness design makes the most of the available screen space, and ensures that the website is usable and coherent on every device.
 
-### Accessibility
+<!-- ### Accessibility -->
 
-The
+<!-- The -->
 
 <!-- !check accessibility contrast etc everyhwere incl focus / hover things -->
 
@@ -135,13 +135,9 @@ The contains tool names and images, organised into maths, science, and music cat
 
 The tools are slightly transparent, but hovering over them bring them into full opacity and color to engage the audience.
 
-<!-- The links ... don't go anywhere yet -->
-
 ##### Blog portal
 
 The Project page is where my blog can be accessed.
-
-<!-- ... a tags on images in Projects page don't go anywhere yet (#) -->
 
 ![projects-m](./docs/page-screenshots/projects-mobile.png)
 ![projects-t](./docs/page-screenshots/projects-tablet.png)
@@ -209,8 +205,6 @@ Mockup designs for each page and for each screen size are provided below. The we
 
 ### Wireframe screenshots
 
-<!-- Wireframes or mockups of the pages of your website	Your decision making process relating to the overall aesthetic of your website -->
-
 #### Home wireframes
 
 ![Home](./docs/wireframes/home-w.png)
@@ -241,8 +235,6 @@ This site is aimed at employers, colleagues, peers, and anyone interested in usi
 
 ## Tech stack
 
-<!-- (e.g. html, css, deployment platform, etc) [include GitHub!] -->
-
 - HTML for content
 - CSS for styling
 - Flexbox for styling
@@ -250,9 +242,3 @@ This site is aimed at employers, colleagues, peers, and anyone interested in usi
 - Netlify for deployment
 - Figma for wireframes
 - draw.io for sitemap
-
-<!-- R5: must explain...: include brief explanation/overview of images? How? Is it for components/R7? listen T1W3Sat 2:31:00 -->
-
-<!-- for deliverable/file structure, listen 2:32:00 re doc, src folder etc. The readme.md uses docs folder - for images? copy whole prject source code into src folder? -->
-
-<!-- Deliverable: Resources: All files linked by the README.md file must be included in a folder named docs. All resources included in this folder must be in either png, jpeg, pdf, or markdown (md) format -->
