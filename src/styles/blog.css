@@ -1,0 +1,104 @@
+/* The ... section which uses the "intro" styling   */
+.intro {
+  padding: 24px;
+
+  text-align: center;
+}
+
+h1 {
+  padding: 8px;
+}
+
+.intro ul {
+  padding-left: 24px;
+
+  list-style-type: none;
+}
+
+.intro ul li {
+  padding: 2px;
+}
+
+/* The secret ... */
+#secret {
+  margin: 0;
+  padding: 12px 0 0;
+
+  font-size: 16px;
+  opacity: 0;
+}
+
+#secret:hover {
+  opacity: 1;
+}
+
+/* The ...  */
+.blog {
+  margin: 0 12px 0;
+  padding: 0 12px 0;
+
+  text-align: center;
+  width: 100%;
+}
+
+.blog h2 {
+  padding-top: 12px;
+}
+
+.blog img {
+  margin: 16px 0;
+
+  border-radius: 24px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.blog p {
+  padding: 12px 0 12px;
+
+  font-size: 16px;
+}
+
+/* Media breakpoint for tablets */
+@media screen and (min-width: 576px) {
+  .intro {
+    padding: 24px 12px 12px;
+  }
+
+  h1 {
+    padding-left: 0;
+  }
+
+  .intro ul {
+    padding: 0;
+
+    text-align: left;
+  }
+
+  .blog h2 {
+    text-align: left;
+  }
+
+  .blog {
+    text-align: justify;
+    font-size: 18px;
+  }
+}
+
+/* Media breakpoint for desktops */
+@media screen and (min-width: 992px) {
+  .intro {
+    margin: 0 12px;
+    padding: 24px 24px 12px;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  .blog {
+    padding: 0 24px;
+
+    font-size: 20px;
+  }
+}

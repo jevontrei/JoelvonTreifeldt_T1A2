@@ -1,0 +1,141 @@
+/* The intro ... */
+.intro {
+  padding: 12px;
+}
+
+/* The academic and employment experiences are wrapped in this container */
+.experiences-both {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience {
+  margin: 20px 24px 32px;
+  padding: 24px 24px 0px;
+
+  height: fit-content;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+.item-date {
+  padding-top: 16px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.item-details {
+  margin: 12px 0 12px;
+  padding: 4px 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item-details a {
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+
+.item-details a:hover {
+  text-decoration: none;
+}
+
+.employment {
+  margin-top: 0;
+}
+
+/* The resume ... */
+.resume-container {
+  width: fit-content;
+
+  display: flex;
+}
+
+.resume {
+  margin: 0;
+  padding: 32px 14px 44px;
+
+  font-size: 24px;
+  height: fit-content;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resume-link {
+  text-decoration: underline;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#resume-link:hover {
+  text-decoration: none;
+}
+
+.fa-regular {
+  padding: 0 12px 12px;
+  font-size: 32px;
+}
+
+#resume-link h2 {
+  margin: 0;
+}
+
+/* Media breakpoint for tablets */
+@media screen and (min-width: 576px) {
+  .experiences-both {
+    max-width: 500px;
+  }
+}
+
+/* Media breakpoint for desktops */
+@media screen and (min-width: 992px) {
+  .experiences-both {
+    max-width: 100%;
+
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .experience {
+    max-width: 35%;
+  }
+
+  .academia {
+    margin: 20px 0 20px;
+    padding: 32px 24px 32px;
+
+    border-right: 1px solid black;
+  }
+
+  .employment {
+    margin: 0;
+    padding: 24px;
+  }
+
+  .resume-container {
+    max-width: 100%;
+  }
+}

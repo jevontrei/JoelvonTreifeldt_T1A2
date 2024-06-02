@@ -1,0 +1,177 @@
+/* The ... */
+.all-projects {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 32px 0 32px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#maths,
+#science,
+#music {
+  width: 100%;
+}
+
+.tool {
+  padding: 8px;
+
+  text-decoration: none;
+  opacity: 0.9;
+  filter: grayscale(0.6);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tool:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+.tool:hover > p {
+  text-decoration: underline;
+}
+
+.tool p {
+  padding: 16px 0 4px;
+
+  font-size: 20px;
+}
+
+.tool-image {
+  border-radius: 24px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.tool-image:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+/* The blog portal ... */
+.blog-portal {
+  margin: 0 20px;
+  padding: 32px 20px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog-link {
+  padding: 12px;
+
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-portal ul {
+  list-style-type: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+.blog-portal ul li a {
+  padding: 2px;
+
+  text-decoration: none;
+}
+
+.blog-portal ul li a:hover {
+  text-decoration: underline;
+}
+
+.fa-solid {
+  padding: 0 12px 12px;
+
+  font-size: 32px;
+}
+
+/* Media breakpoint for tablets */
+@media screen and (min-width: 576px) {
+  .intro {
+    padding: 12px 12px 32px;
+  }
+
+  #maths,
+  #science,
+  #music {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .tool {
+    padding: 8px 0 8px;
+  }
+
+  .tool-image {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .blog-portal {
+    max-width: 500px;
+  }
+
+  .blog-portal ul {
+    list-style-type: none;
+    font-size: 18px;
+  }
+}
+
+/* Media breakpoint for desktops */
+@media screen and (min-width: 992px) {
+  .intro {
+    padding: 12px;
+  }
+
+  .intro p {
+    text-align: center;
+  }
+
+  .all-projects {
+    max-width: 100%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-evenly;
+  }
+
+  .tool {
+    padding: 8px;
+  }
+
+  .tool-image {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project {
+    width: 100%;
+    max-width: 300px;
+  }
+}

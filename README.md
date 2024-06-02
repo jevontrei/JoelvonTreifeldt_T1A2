@@ -10,7 +10,7 @@ https://main--t1a2-portfolio-jvt.netlify.app/
 
 ## GitHub repository
 
-https://github.com/jevontrei/t1a2-portfolio-jvt
+https://github.com/jevontrei/JoelvonTreifeldt_T1A2
 
 ---
 

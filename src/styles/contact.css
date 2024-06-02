@@ -1,0 +1,123 @@
+/* The main ... */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* The contact ... */
+.contact {
+  padding: 12px;
+  width: 100%;
+}
+
+#contact-h1 {
+  text-align: center;
+}
+
+.contact-form {
+  margin: 20px 24px 20px;
+  padding: 0 12px 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 28px;
+  align-items: center;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form-item label {
+  margin-left: 12px;
+  padding: 0 0 4px;
+
+  width: 100px;
+  font-size: 20px;
+}
+
+.form-input {
+  margin-left: 12px;
+  padding: 4px;
+
+  width: 300px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.form-input:hover {
+  background: none;
+}
+
+.form-input:focus {
+  background: var(--button-default-color);
+}
+
+/* The submit button ... */
+#button {
+  padding: 8px;
+
+  height: 48px;
+  width: 120px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+#button:hover {
+  cursor: pointer;
+  background: none;
+}
+
+/* The direct contact section ... */
+#direct {
+  padding: 24px 0;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#direct h2 {
+  padding: 12px 0 16px;
+}
+
+#direct p {
+  font-size: 20px;
+}
+
+#direct address a {
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* Media breakpoint for tablets */
+@media screen and (min-width: 576px) {
+  .form-item {
+    flex-direction: row;
+  }
+
+  .form-item label {
+    font-size: 24px;
+  }
+
+  .form-input {
+    width: 350px;
+    font-size: 20px;
+  }
+}
+
+/* Media breakpoint for desktops */
+@media screen and (min-width: 992px) {
+  .form-input {
+    margin-left: 16px;
+
+    width: 400px;
+  }
+}

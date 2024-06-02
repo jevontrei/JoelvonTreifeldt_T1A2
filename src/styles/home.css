@@ -1,0 +1,60 @@
+/* The ... element ...  */
+.intro-and-photo {
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  padding: 16px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  opacity: 0.85;
+  filter: grayscale(0.85);
+}
+
+.photo:hover {
+  opacity: 1;
+  filter: grayscale(1);
+}
+
+/* Media breakpoint for tablets */
+@media screen and (min-width: 576px) {
+  h1 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* This max-midth keeps the photo the same width as the mobile maximum */
+  .photo {
+    max-width: 528px;
+  }
+}
+
+/* Media breakpoint for desktops */
+@media screen and (min-width: 992px) {
+  .intro-and-photo {
+    padding-top: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo {
+    margin: 12px;
+  }
+
+  .intro {
+    margin: 24px;
+    height: fit-content;
+    max-width: 50%;
+  }
+
+  h1 {
+    margin: 0;
+  }
+}
