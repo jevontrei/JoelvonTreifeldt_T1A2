@@ -26,13 +26,9 @@ This website allows me to present my portfolio, outline my professional and educ
 
 CSS and Flexbox were used to design each page and create a layout that is responsive to mobile, tablet and desktop viewport widths. The responsiveness design makes the most of the available screen space, and ensures that the website is usable and coherent on every device.
 
-<!-- ### Accessibility -->
+### Accessibility
 
-<!-- The -->
-
-<!-- !check accessibility contrast etc everyhwere incl focus / hover things -->
-
-<!-- use lighthouse in chrome -->
+Due to issues across browsers/devices, there are some accessibility issues e.g. the background image doesn't properly blend with the white color, making it hard to read the text.
 
 ### Universal features, background, styling, and bugs
 
